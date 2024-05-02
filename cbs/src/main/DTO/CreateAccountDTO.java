@@ -8,7 +8,7 @@ import lombok.Setter;
 @Data
 
 
-public class AccountDTO {
+public class CreateAccountDTO {
     private Long id;
     private String bvn;
     private String title;

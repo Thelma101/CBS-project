@@ -29,7 +29,7 @@ public class CreateAccountController {
      * @return HttpResponseDTO - Standardized response with success message.
      */
     @PostMapping("/create-account-details")
-    public HttpResponseDTO createAccount(@RequestBody AccountDTO accountDTO) {
+    public HttpResponseDTO createAccount(@RequestBody CreateAccountDTO accountDTO) {
         accountService.createAccountDetails(accountDTO);
 
         HttpResponseDTO response = new HttpResponseDTO();
