@@ -7,7 +7,6 @@ import lombok.Setter;
 //@Setter @Getter
 @Data
 
-public class AccountDTO {
 
 public class AccountDTO {
     private Long id;
@@ -24,5 +23,4 @@ public class AccountDTO {
     private String gender;
     private String maritalStatus;
     private String countryOfResidence;
-}
 }
